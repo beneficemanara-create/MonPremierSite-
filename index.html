@@ -2,27 +2,36 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon premier site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Site</title>
 
     <style>
         body {
             background-color: lightblue;
             font-family: Arial, sans-serif;
             text-align: center;
+            padding-top: 60px;
         }
 
-        h1 {
-            color: darkblue;
-        }
-
-        p {
-            color: darkgreen;
-            font-size: 20px;
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
+
     <h1>Bonjour !</h1>
     <p>Bienvenue dans mon premier site web.</p>
+
+    <button onclick="alert('Bienvenue sur mon site web !')">
+        Clique ici
+    </button>
+
 </body>
 </html>
